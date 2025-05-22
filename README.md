@@ -54,7 +54,7 @@ To evaluate topic modeling performance, I compared the two approaches — BERTop
 | Model     | Coherence Score | Interpretation |
 |-----------|------------------|----------------|
 | **BERTopic** | 0.516 ✅ | High coherence — clear, semantically rich topics |
-| **LDA**       | 0.420 ✅ | Good — impressive performance for short-form text |
+| **LDA**       | 0.380 ✅ | Good — impressive performance for short-form text |
 
 > Coherence scores were calculated using the `c_v` metric from Gensim’s `CoherenceModel`, which evaluates how frequently top topic words appear together in the dataset.
 
